@@ -1,5 +1,5 @@
 {
-    "name": "myvendor/mypackage",
+    "name": "azmy/package",
     "description": "A sample Laravel package",
     "type": "library",
     "autoload": {
