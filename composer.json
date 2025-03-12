@@ -1,0 +1,24 @@
+{
+    "name": "myvendor/mypackage",
+    "description": "A sample Laravel package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\MyPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MyVendor\\MyPackage\\MyPackageServiceProvider"
+            ],
+            "aliases": {
+                "MyPackage": "MyVendor\\MyPackage\\Facades\\MyPackage"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0"
+    }
+}
